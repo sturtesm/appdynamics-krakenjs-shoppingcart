@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<controller-info>
+    
+    
+    
+    <enable-orchestration>false</enable-orchestration>
+
+    <!-- If the controller is running in multi-tenant mode, specify the account name
+         and access key for this agent to authenticate with the controller.
+         If the controller is running in single-tenant mode, there is no need to
+         specify these values. -->
+    
+    
+
+    <!--  For Auto Agent Registration specify the application name, tier name,
+          and node name. If the application, tier, or node does not
+          exist already it will be created. -->
+    
+    
+    
+    
+    <force-agent-registration>false</force-agent-registration>
+    
+    
+</controller-info>

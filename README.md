@@ -1,4 +1,3 @@
-appdynamics-krakenjs-shoppingcart
-=================================
+# Kraken_Example_Shopping_Cart
 
-A sample shopping cart built on top of PayPal's Kraken.js framework
+A non-trivial kraken app

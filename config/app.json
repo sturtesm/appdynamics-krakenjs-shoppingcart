@@ -1,0 +1,57 @@
+{
+// "host": "localhost",
+//
+//
+// "i18n": {
+//     "fallback": "en-US",
+//     "contentPath": "path:./locales"
+// },
+//
+// "routes": {
+//     "routePath": "path:./controllers"
+// },
+//
+//  "view engines": {
+//      "js": {
+//         "module": "adaro",
+//         "settings": {
+//             "helpers": null,
+//             "stream": false
+//         }
+//      },
+//
+//     "dust": {
+//         "module": "adaro",
+//         "settings": {
+//             "helpers": null,
+//             "stream": false
+//         }
+//     }
+// },
+// "express": {
+//     "x-powered-by": false,
+//     "trust proxy": false,
+//     "jsonp callback name": null,
+//     "json replacer": null,
+//     "json spaces": 0,
+//     "case sensitive routing": false,
+//     "strict routing": false,
+//     "view cache": true,
+//     "view engine": "js",
+//     "views": "path:./.build/templates"
+// }
+
+    "port": 8000,
+    
+    "databaseConfig": {
+        "host": "localhost",
+        "database": "test"
+    },
+
+    "paypalConfig": {
+        "host": "api.sandbox.paypal.com",
+        "port": "",
+        "client_id": "EBWKjlELKMYqRNQ6sYvFo64FtaRLRR5BdHEESmha49TM",
+        "client_secret": "EO422dn3gQLgDbuwqTjzrFgFtaRLRR5BdHEESmha49TM"
+    }
+}
