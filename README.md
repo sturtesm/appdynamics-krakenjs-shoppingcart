@@ -13,7 +13,10 @@ This example was built from the [Kraken.js Shopping Cart Tutorial](https://githu
 ## Node.js
 Node.js v0.8+ is required.
 ## MongoDB
-MongoDB must be installed and running on the localhost using the default port 27017.  You can point to a remote instance of MongoDB by updating **${APP_ROOT}**/config/app.json.
+[MongoDB](https://www.mongodb.org/) must be installed and running on the localhost using the default port 27017.  MongoDB can be quickly started using **${MONGO_ROOT}/bin/mongod**.
+
+You can point to a different, or remote, instance of MongoDB by updating **${APP_ROOT}**/config/app.json.
+
 
 ## AppDynamics
 The AppDynamics 3.8 Node.js Beta Agent has been installed as part of the application using **npm install**, it is installed to **${APP_ROOT}**/node_modules/appdynamics.
