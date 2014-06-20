@@ -1,0 +1,10 @@
+{>"layouts/master" /}
+
+{<body}
+    <main role="main">
+        <h2>Payment Information</h2>
+        <b>Client ID: </b> {token.client_id}</p>
+        <b>Client Secret: </b> {token.client_secret}</p>
+        <ul class="nm-np inline">        
+        <h3><a href="/">Keep on buying with PayPal!</a></h3>
+{/body}

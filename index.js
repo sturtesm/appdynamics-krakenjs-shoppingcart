@@ -1,16 +1,18 @@
 'use strict';
 
+/**
 require("appdynamics").profile({
   controllerHostName: '127.0.0.1',
   controllerPort: 8090,
+  controllerSslEnabled: false, //Optional   
   accountName: '', //Required for a controller running in multi-tenant mode.
   accountAccessKey: '', //Required for a controller running in multi-tenant mode.
-  applicationName: 'Kraken.js Shopping Cart',
-  tierName: 'Shopping Cart',
-  nodeName:'osxltsturt', //Prefix to the full node name.
+  applicationName: 'PayPal ECommerce Store',
+  tierName: 'NodeJS Web Tier',
+  nodeName:'nodejs-osxltsturt', //Prefix to the full node name.
   debug: true //Debug is optional; defaults to false.
  });
-
+**/
 
 var kraken = require('kraken-js'),
     db = require('./lib/database'),

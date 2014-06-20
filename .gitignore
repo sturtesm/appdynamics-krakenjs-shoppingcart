@@ -1,0 +1,4 @@
+*.log
+*.gz
+appdynamics
+*.DS_Store
